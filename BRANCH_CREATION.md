@@ -33,5 +33,15 @@ This document demonstrates how to create and publish a new Git branch called `ac
 ### Branch Created
 A branch named `accelerate-with-copilot` has been created locally in this repository as a demonstration of the branch creation process. The branch exists locally and contains the same codebase as the source branch.
 
+### Automated Publishing
+
+A helper script `publish-branch.sh` is provided to automate the publishing process:
+
+```bash
+./publish-branch.sh
+```
+
+This script will check if the `accelerate-with-copilot` branch exists locally and attempt to push it to the remote repository.
+
 ### Note
 To actually publish a branch to GitHub, you need appropriate repository permissions and authenticated Git credentials.
